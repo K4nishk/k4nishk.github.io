@@ -1,7 +1,28 @@
+/* A link that has not been visited */
+a:link {
+    text-decoration: none;
+    color: #550275;
+}
+/* A link that has been visited */
+a:visited {
+    text-decoration: none;
+    color: #07004a;
+}
+/* A link that is hovered on */
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+/* A link that is selected */
+a:active {
+    text-decoration: underline;
+    color: green;
+}
+
 html, body {
   margin: 0;
   border: 0;
   font-size: 100%;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #dbd5b6;
+  color: #730149;
 }
